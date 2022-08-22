@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+div {
+    background: transpatent;
+}
+
+.wrap {
+    background-image: url(../images/Bg.png);
+    background-size: cover;
+    background-position: 0 0;
+    color: #fff;
+}
+
+.navbar .nav-link {
+    color: #fff !important;
+}
+
+.navbar .nav-link.active {
+    color: #ff00fc !important;
+}
+
+.navbar-brand {
+    display: none;
+
+    width: 100px;
+}
+
+.home {
+    min-height: 700px;
+}
+
+.home .logo {
+    width: 75%;
+}
+
+.home .text {
+    width: 75%;
+}
+
+.gold .header img {
+    width: 220px;
+}
+
+.platinum .header img {
+    width: 400px;
+}
+
+.gold .header h2,
+.platinum .header h2 {
+    font-size: 3rem;
+}
+
+.gold .row .col-md-6:nth-child(1),
+.platinum .row .col-md-6:nth-child(1) {
+    border-right: 3px solid #fff;
+}
+
+.gold img.position-absolute {
+    left: 0;
+    top: -80px;
+}
+
+.platinum .left,
+.platinum .right {
+    position: absolute;
+}
+
+.platinum .left {
+    width: 90px;
+    left: 0;
+}
+
+.platinum .right {
+    right: 0;
+    width: 240px;
+}
+
+.gallery img.position-absolute {
+    top: 40px;
+    left: 30px;
+    width: 100px;
+}
+
+.gallery .col-md-6 .brus_one {
+    bottom: -80px;
+    left: -80px;
+    position: absolute;
+}
+
+.gallery .col-md-6 .brus_two {
+    top: -80px;
+    right: -50px;
+    position: absolute;
+}
+
+.carousel-control-prev {
+    left: calc(50% - 50px);
+}
+
+.carousel-control-next {
+    right: calc(50% - 50px);
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    height: 40px;
+    width: 40px;
+    bottom: -60px;
+    background: white;
+    border-radius: 50%;
+    top: auto;
+    opacity: 1;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../images/Galeria/prev.png);
+}
+
+.carousel-control-next-icon {
+    background-image: url(../images/Galeria/next.png);
+}
+
+
+.contact img.right {
+    right: 0;
+}
+
+.contact img.right.top {
+    top: -10px;
+    width: 90px;
+}
+
+.contact img.right.bottom {
+    bottom: 30px;
+    width: 170px;
+}
+
+.contact img.left {
+    left: 0;
+}
+
+.contact img.left.top {
+    left: 30px;
+    width: 100px;
+}
+
+.contact img.left.bottom {
+    bottom: 0;
+    width: 200px;
+}
+
+.pink {
+    border: 5px solid black;
+    border-image-source: url("../images/Contact/Enviar_Contacto.png");
+    border-image-slice: 3.5 fill;
+    border-image-repeat: round;
+    border-image-width: 6px;
+    background: transparent;
+    width: 200px;
+    display: block;
+    box-shadow: 0 0 40px #ff00fc;
+}
+
+.btn_green {
+    border: 5px solid black;
+    border-image-source: url("../images/Contact/btn_green.png");
+    border-image-slice: 4.5 fill;
+    border-image-repeat: round;
+    border-image-width: 6px;
+    background: transparent;
+    width: 200px;
+    display: block;
+    box-shadow: 0 0 40px #02feef;
+}
+
+footer {
+    background-image: url(../images/Bg_footer.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer img {
+    display: block;
+}
+
+footer .redes img {
+    width: 40px;
+    height: 40px;
+    margin: 10px 0;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
+@media(max-width: 1024px) {
+    .gallery .col-md-6 .brus_two {
+        right: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .home .logo {
+        width: 100%;
+    }
+
+    .gold img.position-absolute {
+        width: 85px;
+    }
+
+    .po .platinum .left {
+        width: 60px;
+    }
+
+    .platinum .right {
+        width: 90px;
+    }
+
+    .gallery img.position-absolute {
+        top: 90px;
+        left: 0px;
+        width: 70px;
+    }
+
+    .contact img.right.top {
+        top: 0px;
+        width: 60px;
+    }
+
+    .contact img.left.top {
+        left: 5px;
+        width: 50px;
+    }
+
+    .contact img.left.bottom {
+        width: 120px;
+    }
+
+    .contact img.right.bottom {
+        width: 85px;
+    }
+}
