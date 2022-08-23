@@ -32,16 +32,35 @@ div {
     width: 100px;
 }
 
+.navbar-toggler {
+    background: #fff;
+    display: none;
+}
+
 .home {
-    min-height: 700px;
+    background-image: url(../images/Bg_Home.png);
+    background-size: cover;
+    background-position: center;
+    /* height: 800px; */
+
 }
 
 .home .logo {
-    width: 75%;
+    width: 85%;
 }
 
 .home .text {
-    width: 75%;
+    width: 70%;
+}
+
+.home p {
+    font-size: 1.5rem;
+}
+
+.home .col-md-5 img {
+    /* position: absolute; */
+    /* width: 75%; */
+    bottom: 0;
 }
 
 .gold .header img {
@@ -214,11 +233,25 @@ footer .redes img {
     .gallery .col-md-6 .brus_two {
         right: 0;
     }
+
+    .home .col-md-5 img {
+        width: 100%;
+    }
 }
 
 @media (max-width: 767px) {
+    .home {
+        height: auto;
+        padding: 4rem 0 0;
+    }
+
     .home .logo {
         width: 100%;
+    }
+
+    .home .col-md-5 img {
+        position: relative;
+        width: 75%;
     }
 
     .gold img.position-absolute {

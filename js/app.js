@@ -11,9 +11,11 @@ $(window).scroll(function () {
     var home = $("#about").offset().top;
     if ($(window).scrollTop() > home) {
         $(".navbar-brand").fadeIn();
+        $(".navbar-toggler").fadeIn();
         $(".navbar").css('background','#000');
     } else {
-        $(".navbar-brand").fadeOut();
+        $(".navbar-brand").fadeOut();        
+        $(".navbar-toggler").fadeOut();
         $(".navbar").css('background','transparent');
     }
 });
