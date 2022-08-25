@@ -229,6 +229,13 @@ footer .redes img {
     }
 }
 
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-toggler {
+        display: none !important;
+    }
+}
+
+
 @media(max-width: 1024px) {
     .gallery .col-md-6 .brus_two {
         right: 0;
